@@ -26,6 +26,6 @@ public class SorteadorIni {
             System.out.println("Sorteio inválido, quantidade de números menor que o intervalo");
             return;
         }
-        Sorteador.sortear(numInicial,numFinal, quantidadeNumSortear);
+        Sorteador.sortear(numInicial,numFinal + 1, quantidadeNumSortear);
     }
 }
